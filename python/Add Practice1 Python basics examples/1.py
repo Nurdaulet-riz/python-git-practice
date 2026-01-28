@@ -1,0 +1,1 @@
+print("I try to connect VS code with GitHub")

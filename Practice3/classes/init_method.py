@@ -51,3 +51,17 @@ print(p1.name)
 print(p1.age)
 print(p1.city)
 print(p1.country)
+
+#Challenge: __init__ Method:
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def bark(self):
+        print(self.name + " says Woof!")
+# Create an object
+d1 = Dog("Buddy", 3)
+# Print the age
+print(d1.age)
+# Call the bark method
+d1.bark()

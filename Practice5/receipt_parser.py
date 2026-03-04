@@ -4,7 +4,7 @@ import json
 with open("raw.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
-# 1. Extract prices (берём только строки "Стоимость")
+# 1. Extract prices
 prices = re.findall(r"Стоимость\s*\n([\d\s]+,\d{2})", text)
 price_numbers = [float(p.replace(" ", "").replace(",", ".")) for p in prices]
 

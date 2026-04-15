@@ -53,16 +53,12 @@ class Mickey_clock:
         minute, second = self.get_current_time()
         min_angle, sec_angle = self.calculate_angle(minute, second)
         screen.blit(self.front, (0, 0))
-         # Центр часов (где плечи)
         pivot = self.CENTER
 
-    # ⚠️ ВАЖНО: эти значения нужно подобрать под твою картинку
-    # они задают где у руки "плечо" внутри PNG
-
-    # Минутная рука (левая)
+   
         min_offset = pygame.math.Vector2(0, 0)
 
-    # Секундная рука (правая)
+
         sec_offset = pygame.math.Vector2(0, 0)
 
         self.rotate_hand(screen, self.min_hand, min_angle, pivot, min_offset)

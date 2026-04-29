@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Alim",
+        "email": "alim@gmail.com",
+        "birthday": "2004-05-12",
+        "group": "Friend",
+        "created_at": "2026-04-29T18:07:59.803279",
+        "phones": [
+            {
+                "phone": "+77070000001",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Dan",
+        "email": "dan@company.com",
+        "birthday": "2003-11-03",
+        "group": "Work",
+        "created_at": "2026-04-29T18:07:59.803279",
+        "phones": [
+            {
+                "phone": "+77070000002",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "name": "Aru",
+        "email": "aru@mail.com",
+        "birthday": "2004-01-21",
+        "group": "Family",
+        "created_at": "2026-04-29T18:07:59.803279",
+        "phones": [
+            {
+                "phone": "+77070000003",
+                "type": "home"
+            }
+        ]
+    }
+]
